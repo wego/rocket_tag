@@ -49,7 +49,7 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<activerecord>, [">= 3.2.0"])
+      s.add_runtime_dependency(%q<activerecord>, [">= 3.1.6"])
       s.add_runtime_dependency(%q<squeel>, ["~> 1.0.0"])
       s.add_development_dependency(%q<pg>, [">= 0"])
       s.add_development_dependency(%q<rspec>, ["~> 2.10.0"])
@@ -59,7 +59,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<sqlite3>, [">= 0"])
       s.add_development_dependency(%q<rake>, [">= 0"])
     else
-      s.add_dependency(%q<activerecord>, [">= 3.2.0"])
+      s.add_dependency(%q<activerecord>, [">= 3.1.6"])
       s.add_dependency(%q<squeel>, ["~> 1.0.0"])
       s.add_dependency(%q<pg>, [">= 0"])
       s.add_dependency(%q<rspec>, ["~> 2.10.0"])
